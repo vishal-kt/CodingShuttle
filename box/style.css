@@ -5,13 +5,17 @@
 }
 
 .box{
-    font-size: 2rem;
-    text-align: center;
+    width: 50vw;
+    height: 50vh;
+  
+
     border: 10px solid #312212;
     padding: 30px;
     margin: 20px;
     background: radial-gradient(rgb(228, 189, 15), rgb(184, 29, 75)); 
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle{
