@@ -36,7 +36,6 @@ h2{
 
 p{
     border:5px dashed brown;
-   width: 50vw;
-   height:max-content;
-   font-size: 0.5rem;
+    width: 50vw;
+    font-size: 0.5rem;
 }
