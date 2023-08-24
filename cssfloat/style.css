@@ -1,0 +1,13 @@
+.container{
+    height: 300px;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+.img1{
+    float: right;
+}
+
+.img2{
+    float: left;
+}
