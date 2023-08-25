@@ -1,0 +1,14 @@
+*{
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: ;
+    --secondart-text-color: ;
+    --accent-color: ;
+    --accent-color-dark: ;
+    --padding-inline-section:20px;
+    
+}
