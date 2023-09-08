@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Sacramento&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -16,15 +16,46 @@ body{
 nav{
 
     display: flex;
+    justify-content: space-between;
     position: fixed;
     max-height: 60px;
     height: 60px;
     max-width: 100vw;
     width: 100%;
-    background-color: rgb(248, 242, 230);
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.1);
     
 }
+
+
+.nav-left{
+   
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    height: 100%;
+    font-size: 20px;
+
+}
+
+
+
+.nav-right
+{
+
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    height: 100%;
+    color: black;
+    font-size: 20px;
+
+
+ 
+}
+
 
 #logo{
 
@@ -33,11 +64,44 @@ nav{
     height: 40px;
 }
 
+#logo-text{
+
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    font-weight: 900;
+    color: black;
+    font-size:xx-large;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+.about{
+
+}
 
 
 
 
 
+.GradientText {
+    color: #b636c9;
+background-image: -webkit-linear-gradient(45deg, #b636c9 0%, #815681 33%, #312eff 67%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+          
+        
 
 /* css font rules 
 color code #A8CF45 for green
